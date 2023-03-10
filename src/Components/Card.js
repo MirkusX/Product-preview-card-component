@@ -1,22 +1,33 @@
-import { StyledImage, StyledSection } from "./StyledComponents";
+import {
+  StyledButton,
+  StyledDiv,
+  StyledH1,
+  StyledImage,
+  StyledP,
+  StyledPStrike,
+  StyledSection,
+} from "./StyledComponents";
 import image from "../Images/image.jpg";
 
 export const Card = () => {
   return (
     <StyledSection>
-      <div>
+      <StyledDiv>
         <StyledImage src={image} />
-      </div>
-      <div>
-        <h1>Perfume</h1>
-        <h1>Gabrielle Essence Eau De Parfum</h1>
-        <p>
+      </StyledDiv>
+      <StyledDiv>
+        <StyledH1>PERFUME</StyledH1>
+        <StyledH1 name>Gabrielle Essence Eau De Parfum</StyledH1>
+        <StyledP>
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
-        </p>
-        <h1>$149.99</h1>
-        <button>Add to cart</button>
-      </div>
+        </StyledP>
+        <StyledDiv priceContainer>
+          <StyledH1 price>$149.99</StyledH1>
+          <StyledPStrike>$169.99</StyledPStrike>
+        </StyledDiv>
+        <StyledButton>Add to cart</StyledButton>
+      </StyledDiv>
     </StyledSection>
   );
 };
