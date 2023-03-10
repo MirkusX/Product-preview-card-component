@@ -14,6 +14,7 @@ export const StyledDiv = styled.div`
   padding: 1em;
   text-align: left;
   width: 50%;
+  background-color: white;
   ${(props) => {
     if (props.priceContainer)
       return `
@@ -37,8 +38,8 @@ export const StyledH1 = styled.h1`
     if (props.name)
       return `
     letter-spacing: normal;
-    font-size: 2.8rem;
-    margin: 0;
+    font-size: 3rem;
+   margin: 0;
     `;
   }}
   ${(props) => {
@@ -63,5 +64,4 @@ export const StyledButton = styled.button`
   border: none;
   padding: 1em;
   width: 90%;
-  margin: 0 auto;
 `;
