@@ -12,7 +12,7 @@ import image from "../Images/image.jpg";
 export const Card = () => {
   return (
     <StyledSection>
-      <StyledDiv>
+      <StyledDiv imageContainer>
         <StyledImage src={image} />
       </StyledDiv>
       <StyledDiv>

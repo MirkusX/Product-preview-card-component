@@ -24,6 +24,11 @@ export const StyledDiv = styled.div`
     gap: 1em;
    `;
   }}
+  ${(props) => {
+    if (props.imageContainer)
+      return `
+    padding: 0;`;
+  }}
 `;
 
 export const StyledH1 = styled.h1`
@@ -33,6 +38,7 @@ export const StyledH1 = styled.h1`
       return `
     letter-spacing: normal;
     font-size: 2.8rem;
+    margin: 0;
     `;
   }}
   ${(props) => {
@@ -44,7 +50,7 @@ export const StyledH1 = styled.h1`
 `;
 
 export const StyledP = styled.p`
-  line-height: 2em;
+  line-height: 1.5em;
 `;
 
 export const StyledPStrike = styled.p`
