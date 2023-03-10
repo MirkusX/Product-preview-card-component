@@ -63,5 +63,6 @@ export const StyledButton = styled.button`
   color: white;
   border: none;
   padding: 1em;
-  width: 90%;
+  width: 100%;
+  border-radius: 5px;
 `;
