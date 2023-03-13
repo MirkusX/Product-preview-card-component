@@ -31,7 +31,6 @@ export const StyledDiv = styled.div`
   ${(props) => {
     if (props.imageContainer)
       return `
-    padding: 0;
     background: url(${image});
     background-size: cover;`;
   }}
@@ -47,7 +46,8 @@ export const StyledH1 = styled.h1`
     margin: 0;
     letter-spacing: normal;
     font-size: 2rem;
-    width: 70%;
+    width: 80%;
+    color: #1C2027;
     `;
   }}
   ${(props) => {
@@ -55,7 +55,8 @@ export const StyledH1 = styled.h1`
       return `
     font-size: 2rem;
     letter-spacing: normal;
-    margin: 0;`;
+    margin: 0;
+    color: #3D8369;`;
   }};
 `;
 
