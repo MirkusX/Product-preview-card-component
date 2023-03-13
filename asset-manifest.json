@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Product-preview-card-component/static/css/main.073c9b0a.css",
+    "main.js": "/Product-preview-card-component/static/js/main.6acd32d7.js",
+    "static/js/787.51fb433e.chunk.js": "/Product-preview-card-component/static/js/787.51fb433e.chunk.js",
+    "static/media/image.jpg": "/Product-preview-card-component/static/media/image.c96d43af17111fe78e96.jpg",
+    "index.html": "/Product-preview-card-component/index.html",
+    "main.073c9b0a.css.map": "/Product-preview-card-component/static/css/main.073c9b0a.css.map",
+    "main.6acd32d7.js.map": "/Product-preview-card-component/static/js/main.6acd32d7.js.map",
+    "787.51fb433e.chunk.js.map": "/Product-preview-card-component/static/js/787.51fb433e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6acd32d7.js"
+  ]
+}
