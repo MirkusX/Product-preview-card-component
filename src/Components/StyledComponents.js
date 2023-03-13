@@ -2,19 +2,31 @@ import styled from "styled-components";
 import image from "../Images/image.jpg";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
+export const FlexContainer = styled.main`
+  background-color: #f3eae3;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  @media (max-width: 811px) {
+    align-items: flex-start;
+  }
+`;
+
 export const CartIcon = styled(AiOutlineShoppingCart)`
   width: 17px;
   height: 17px;
-`;
-
-export const StyledImage = styled.img`
-  width: 100%;
 `;
 
 export const StyledSection = styled.section`
   display: flex;
   width: 40%;
   margin: 0 auto;
+  @media (max-width: 811px) {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 1em;
+  }
 `;
 
 export const StyledDiv = styled.div`
@@ -22,7 +34,11 @@ export const StyledDiv = styled.div`
   text-align: left;
   width: 50%;
   background-color: white;
-
+  border-radius: 0 10px 10px 0;
+  @media (max-width: 811px) {
+    border-radius: 0 0 10px 10px;
+    width: 80%;
+  }
   ${(props) => {
     if (props.priceContainer)
       return `
@@ -37,8 +53,15 @@ export const StyledDiv = styled.div`
   ${(props) => {
     if (props.imageContainer)
       return `
+   
     background: url(${image});
-    background-size: cover;`;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+   @media(max-width: 811px){
+    height: 20em;
+    background-position: right 35% bottom 60%;
+    border-radius: 10px 10px 0 0;
+   }`;
   }}
 `;
 
