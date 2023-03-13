@@ -1,5 +1,11 @@
 import styled from "styled-components";
 import image from "../Images/image.jpg";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+
+export const CartIcon = styled(AiOutlineShoppingCart)`
+  width: 17px;
+  height: 17px;
+`;
 
 export const StyledImage = styled.img`
   width: 100%;
@@ -75,4 +81,9 @@ export const StyledButton = styled.button`
   padding: 1em;
   width: 100%;
   border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
 `;

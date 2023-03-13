@@ -1,4 +1,5 @@
 import {
+  CartIcon,
   StyledButton,
   StyledDiv,
   StyledH1,
@@ -22,7 +23,10 @@ export const Card = () => {
           <StyledH1 price>$149.99</StyledH1>
           <StyledPStrike>$169.99</StyledPStrike>
         </StyledDiv>
-        <StyledButton>Add to cart</StyledButton>
+        <StyledButton>
+          <CartIcon />
+          Add to cart
+        </StyledButton>
       </StyledDiv>
     </StyledSection>
   );
