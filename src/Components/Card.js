@@ -2,19 +2,15 @@ import {
   StyledButton,
   StyledDiv,
   StyledH1,
-  StyledImage,
   StyledP,
   StyledPStrike,
   StyledSection,
 } from "./StyledComponents";
-import image from "../Images/image.jpg";
 
 export const Card = () => {
   return (
     <StyledSection>
-      <StyledDiv imageContainer>
-        <StyledImage src={image} />
-      </StyledDiv>
+      <StyledDiv imageContainer />
       <StyledDiv>
         <StyledH1>PERFUME</StyledH1>
         <StyledH1 name>Gabrielle Essence Eau De Parfum</StyledH1>
